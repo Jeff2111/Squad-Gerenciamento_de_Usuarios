@@ -1,46 +1,59 @@
-📘 Teste de Gerenciamento de Usuários
+# Squad - Gerenciamento de Usuários
 
-🎯 Objetivo
-Este repositório contém o projeto desenvolvido para a disciplina Gestão e Qualidade de Software, com foco no teste das funcionalidades de Gerenciamento de Usuários, de um sistema de biblioteca.
+Trabalho desenvolvido para a disciplina de **Gestão e Qualidade de Software**, com o objetivo de testar um sistema de biblioteca.
 
-Funcionalidades Implementadas:
+## Descrição
+
+Este projeto consiste em um teste de um sistema para uma biblioteca, na qual serão avaliadas as funcionalidades do sistema, permitindo a realização de operações essenciais de cadastro e administração de contas. O teste do sistema foi desenvolvido como parte das atividades avaliativas da disciplina, com foco na qualidade do software e nas boas práticas de desenvolvimento.
 
 
-✅ Registro de novos usuários:
+## Funcionalidades
 
-Campos: nome, endereço, telefone, e-mail, data de nascimento, tipo de usuário.
+- **Registrar novos usuários:**  
+  Permite o cadastro de usuários com as seguintes informações:  
+  - Nome  
+  - Endereço  
+  - E-mail  
+  - Data de nascimento  
+  - Tipo de usuário
 
-✅ Visualização de detalhes de um usuário.
+- **Visualizar detalhes de um usuário:**  
+  Consulta e exibição dos dados completos de qualquer usuário cadastrado.
 
-✅ Edição das informações do usuário.
+- **Editar informações de um usuário:**  
+  Possibilita a atualização dos dados do usuário já existente no sistema.
 
-✅ Ativação e desativação de contas de usuário.
+- **Ativar/desativar contas de usuário:**  
+  Permite alterar o status da conta do usuário, ativando ou desativando o acesso conforme a necessidade.
 
-🛠️ Tecnologias Utilizadas:
+## Tecnologias Utilizadas
 
-Linguagem: Java
+- **Frameworks:**
+JUnit 5
 
-Frameworks: Junit5
+- **Linguagens utilizadas:**
+Java
 
-IDE: IntelliJ
 
-👨‍💻 Integrantes:
+## Integrantes
 
-Jeferson Nascimento
+- Jeferson do Nascimento
+- Thaynara Merick
+- Mikaela Araujo
+- Maciel Pedro
 
-Thaynara Merick
+## Disciplina
 
-Mikaela Araujo
+- **UC:** Gestão e Qualidade de Software
 
-Maciel Pedro
+- **Curso:** Ciência da Computação
 
-📚 Disciplina:
+- **Instituição:** Faculdade dos Guararapes - UNIFG
 
-Gestão e Qualidade de Software
+- **Professor:** Petros Barreto Da Silva
+  
+## Licença
 
-Curso: Ciência da Computação
+Este projeto é apenas para fins educacionais.
 
-Instituição: Faculdade dos Guararapes - UNIFG
-
-Professor: Petros Barreto Da Silva
-
+---
