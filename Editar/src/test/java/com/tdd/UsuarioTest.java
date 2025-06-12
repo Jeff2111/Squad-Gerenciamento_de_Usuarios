@@ -18,8 +18,8 @@ public class UsuarioTest {
 
     @Test
     public void editarNome() {
-        usuario.editarNomeCompleto("Thaynara Merick");
-        assertEquals("Thaynara Merick", usuario.getNomeCompleto());
+        usuario.editarNomeCompleto("Thaynara Silva");
+        assertEquals("Thaynara Silva", usuario.getNomeCompleto());
     }
 
     @Test
@@ -29,8 +29,8 @@ public class UsuarioTest {
 
     @Test
     public void EditarEmail() {
-        usuario.editarEmail("thayn123@gmail.com");
-        assertEquals("thayn123@gmail.com", usuario.getEmail());
+        usuario.editarEmail("thayn.silva@gmail.com");
+        assertEquals("thayn.silva@gmail.com", usuario.getEmail());
     }
 
     @Test
@@ -52,8 +52,8 @@ public class UsuarioTest {
 
     @Test
     public void deveEditarEndereco() {
-        usuario.editarEndereco("Rua agrestina, 456");
-        assertEquals("Rua agrestina, 456", usuario.getEndereco());
+        usuario.editarEndereco("Rua Agreste, 999");
+        assertEquals("Rua Agreste, 999", usuario.getEndereco());
     }
 
     @Test
